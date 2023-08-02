@@ -1,11 +1,20 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-// Encapsultation 
-// Absatraction 
-// Inheritance 
+// Encapsultation
+// Absatraction
+// Inheritance
 // Ploymorphism
 
-int main() {
+class A
+{
+public:
+    int a;
+    char b;
+};
 
+int main()
+{
+    A a;
+    cout << sizeof(a);
 }
